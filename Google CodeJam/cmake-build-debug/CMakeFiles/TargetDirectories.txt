@@ -1,0 +1,3 @@
+D:/Projects/DS and Algo/Google CodeJam/cmake-build-debug/CMakeFiles/Google_CodeJam.dir
+D:/Projects/DS and Algo/Google CodeJam/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Projects/DS and Algo/Google CodeJam/cmake-build-debug/CMakeFiles/rebuild_cache.dir

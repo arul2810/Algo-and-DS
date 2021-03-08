@@ -24,7 +24,7 @@ int main() {
 
     for(int iter = 0 ; iter < test_cases ; iter++ ){
 
-        
+
 
     }
 

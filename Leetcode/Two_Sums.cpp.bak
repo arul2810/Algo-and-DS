@@ -1,0 +1,56 @@
+/*
+
+Code by Arul Prakash Samathuvamani | hire@arulprakash.dev
+
+
+Leetcode - Problem Two Sums | Difficulty - Easy
+
+
+*/
+
+#include <algorithm.h>
+#include <iostream>
+#include <vector.h>
+
+using namespace std;
+
+
+int main(){
+
+
+	long array_size;
+	
+	long targert;
+	
+	cin >> array_size;
+	
+	int hash_table [1000000000] = {0 } ;
+	
+	long max = 0;
+	
+	for ( int i = 0 ; i < array_size ; i++){
+		
+		long temp;
+		
+		cin >> temp;
+		
+		hash_table [ temp ] =1;
+		
+		if ( max < temp ){
+			
+			max = temp;
+			
+		}
+		
+	}
+	
+	cin >> target;
+	
+	
+	
+
+
+
+
+return 0;
+}

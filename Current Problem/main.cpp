@@ -5,35 +5,24 @@ using namespace std;
 
 int main() {
 
-    int testcases;
-    cin >> testcases;
-    //Actual Code
-    int max;
-    int min;
-    int max_count =0;
-    int min_count=0;
+    string input_string;
 
-    for(int test=0;test<testcases;test++){
+    cin >> input_string;
 
-        int temp;
-        cin >> temp;
-        if(test == 0){
-            max = temp;
-            min = temp;
+    long string_length =  input_string.length();
 
-        }else {
-            if (temp > max){
-                max_count = max_count + 1;
-                max = temp;
-            }else if(temp < min){
-                min_count = min_count + 1;
-                min = temp;
-            }
-        }
+    long *array_string = new long [ string_length] ;
+
+    for ( long i = 0 ; i < string_length ; i++) {
+
+        array_string[i] = int ( input_string [i] );
+
 
     }
 
-    cout << max_count << " "<<min_count<<endl;
+    for ( int i = 0 ; i < string_length ; i++) {
+        cout << char(array_string[i]) << "\n";
+            }
 
 
     return 0;

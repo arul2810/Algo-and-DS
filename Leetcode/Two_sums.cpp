@@ -16,7 +16,7 @@ int main(){
 
     long target;
 
-    long hash_table [ 100000000 ];
+    long hash_table [ 100000 ];
 
     cin >> array_size;
 

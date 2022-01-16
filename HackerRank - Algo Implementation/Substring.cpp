@@ -6,16 +6,13 @@ using namespace std;
 void substring ( string input_string, long string_lenght){
 
 
-for ( int i = 0 ; i < string_lenght ; i ++ ){
+    for ( int i = 0 ; i < string_lenght ; i ++ ){
 
-    for ( int j = 1 ; j <= string_lenght-i ; j ++ ){
+        for ( int j = 1 ; j <= string_lenght-i ; j ++ ){
 
-        cout << input_string.substr ( i, j ) << endl ;
+            cout << input_string.substr ( i, j ) << endl ;
+        }
     }
-}
-
-
-
 
 }
 

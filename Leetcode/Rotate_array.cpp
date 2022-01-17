@@ -65,7 +65,7 @@ void print_node ( linked_list *root_node, int array_size ){
     current_node = root_node ;
 
     for ( int  i = 0 ; i < array_size ; i ++ ){
-        cout << " Am here " ;
+        //cout << " Am here " ;
         cout << current_node->value << " ";
         current_node = current_node->next_node;
     }

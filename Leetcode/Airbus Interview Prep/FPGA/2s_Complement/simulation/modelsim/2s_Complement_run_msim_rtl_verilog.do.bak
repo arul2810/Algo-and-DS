@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/Projects/DS\ and\ Algo/Leetcode/Airbus\ Interview\ Prep/FPGA/2s_Complement {D:/Projects/DS and Algo/Leetcode/Airbus Interview Prep/FPGA/2s_Complement/twos_Complement.v}
+

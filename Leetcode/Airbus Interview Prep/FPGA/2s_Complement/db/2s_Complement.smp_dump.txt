@@ -1,0 +1,5 @@
+
+State Machine - |twos_Complement|STATE
+Name STATE.001 
+STATE.000 0 
+STATE.001 1 

@@ -5,14 +5,14 @@ using namespace std;
 
 int main() {
 
-long long testcases;
+double testcases;
 
 cin >> testcases;
 
 for(int i = 0 ; i < testcases ; i++){
 if(i > 0){
     cout << "\n";}
-    long long n;
+    double n;
     cin >> n;
 
     long *array = new long [n];

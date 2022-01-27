@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Projects/DS and Algo/Leetcode/Airbus Interview Prep/FPGA/2s_Complement/simulation/modelsim
+vtwos_Complement
+!s110 1643309905
+!i10b 1
+!s100 mR]1QcO`923fn3GSA0=`R3
+IeTcXdPQAGAYU5:PX`39dC1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1643309842
+8D:/Projects/DS and Algo/Leetcode/Airbus Interview Prep/FPGA/2s_Complement/twos_Complement.v
+FD:/Projects/DS and Algo/Leetcode/Airbus Interview Prep/FPGA/2s_Complement/twos_Complement.v
+L0 19
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1643309905.000000
+!s107 D:/Projects/DS and Algo/Leetcode/Airbus Interview Prep/FPGA/2s_Complement/twos_Complement.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/DS and Algo/Leetcode/Airbus Interview Prep/FPGA/2s_Complement|D:/Projects/DS and Algo/Leetcode/Airbus Interview Prep/FPGA/2s_Complement/twos_Complement.v|
+!i113 1
+Z3 o-vlog01compat -work work
+Z4 !s92 -vlog01compat -work work {+incdir+D:/Projects/DS and Algo/Leetcode/Airbus Interview Prep/FPGA/2s_Complement}
+Z5 tCvgOpt 0
+ntwos_@complement
+vtwos_Complement_tb
+!s110 1643309906
+!i10b 1
+!s100 V6LQcEc12NJi5Ub:lbg^m2
+I?UGkm<03ae_D?c2AbFY=f3
+R1
+R0
+w1643309878
+8D:/Projects/DS and Algo/Leetcode/Airbus Interview Prep/FPGA/2s_Complement/twos_Complement_tb.v
+FD:/Projects/DS and Algo/Leetcode/Airbus Interview Prep/FPGA/2s_Complement/twos_Complement_tb.v
+L0 21
+R2
+r1
+!s85 0
+31
+!s108 1643309906.000000
+!s107 D:/Projects/DS and Algo/Leetcode/Airbus Interview Prep/FPGA/2s_Complement/twos_Complement_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/DS and Algo/Leetcode/Airbus Interview Prep/FPGA/2s_Complement|D:/Projects/DS and Algo/Leetcode/Airbus Interview Prep/FPGA/2s_Complement/twos_Complement_tb.v|
+!i113 1
+R3
+R4
+R5
+ntwos_@complement_tb

@@ -24,39 +24,57 @@ int main(){
 
     // Input Array
 
-    int size_of_array;
+    signed int size_of_array;
 
     cin >> size_of_array;
 
-    int *input_array = new int [size_of_array];
+    signed int *input_array = new signed int [size_of_array];
 
     int first_positive = 0;
+
+    int flag = 1;
 
 
     for ( int i = 0 ; i < size_of_array ; i ++ ){
 
         cin >> input_array [i];
 
-        if ( input_array[i] >= 0 ){
+        if ( input_array[i] >= 0 && flag == 1){
             first_positive = i;
+            flag = 0;
         }
 
     }
 
     // Printing out the array with squares of positive number in ascending order
 
-    int negative_index = 0;
+    cout << first_positive << "\n";
+
+    signed int negative_index = first_positive-1;
 
     int positive_index = first_positive;
 
-    if ( negative_index != 0 || first_positive < size_of_array ){
+    int value_printed = 0;
 
-        if ( ( input_array [ negative_index ] * input_array [negative_index] ) < ( input_array [first_positive ] * input_array [first_positive] ) ){
+    while ( value_printed != size_of_array ){
+
+        if ( ( input_array [ negative_index ] * input_array [negative_index] ) < ( input_array [first_positive ] * input_array [first_positive] ) && value_printed < (size_of_array-1)){
             cout << " " << input_array [ negative_index ] * input_array [negative_index];
             negative_index =  negative_index - 1;
-        }else{
+            value_printed = value_printed + 1;
+        }else if (value_printed < (size_of_array - 1 ) ){
             cout << " " << input_array [first_positive ] * input_array [first_positive] ;
             first_positive = first_positive + 1;
+            value_printed = value_printed + 1;
+        }else{
+            if (negative_index < 0 ){
+                cout << " " << input_array [first_positive ] * input_array [first_positive] ;
+                value_printed = value_printed + 1;
+                //cout << value_printed << "\n";
+            }else{
+                cout << " " << input_array [ negative_index ] * input_array [negative_index];
+                value_printed = value_printed + 1;
+            }
         }
 
     }

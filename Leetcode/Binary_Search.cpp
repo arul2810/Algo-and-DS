@@ -26,7 +26,7 @@ int binary_search ( long *input_array , long start, long end, long target ){
       binary_search ( input_array , start, mid-1 , target );
 
   }else{
-      binary_search ( input_array, mid+1, start, target );
+      binary_search ( input_array, mid+1, end, target );
   }
 
 }

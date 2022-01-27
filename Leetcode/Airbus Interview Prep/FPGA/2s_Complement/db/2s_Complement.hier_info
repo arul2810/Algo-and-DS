@@ -1,0 +1,20 @@
+|twos_Complement
+clock => complement[0]~reg0.CLK
+clock => complement[1]~reg0.CLK
+clock => complement[2]~reg0.CLK
+clock => complement[3]~reg0.CLK
+clock => ones_complement[0].CLK
+clock => ones_complement[1].CLK
+clock => ones_complement[2].CLK
+clock => ones_complement[3].CLK
+clock => STATE~1.DATAIN
+input_value[0] => ones_complement[0].DATAIN
+input_value[1] => ones_complement[1].DATAIN
+input_value[2] => ones_complement[2].DATAIN
+input_value[3] => ones_complement[3].DATAIN
+complement[0] <= complement[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+complement[1] <= complement[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+complement[2] <= complement[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+complement[3] <= complement[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

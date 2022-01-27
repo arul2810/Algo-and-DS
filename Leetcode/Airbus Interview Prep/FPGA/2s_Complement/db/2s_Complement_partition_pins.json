@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "complement[0]",
+					"strict" : false
+				},
+				{
+					"name" : "complement[1]",
+					"strict" : false
+				},
+				{
+					"name" : "complement[2]",
+					"strict" : false
+				},
+				{
+					"name" : "complement[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "input_value[0]",
+					"strict" : false
+				},
+				{
+					"name" : "input_value[1]",
+					"strict" : false
+				},
+				{
+					"name" : "input_value[2]",
+					"strict" : false
+				},
+				{
+					"name" : "input_value[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

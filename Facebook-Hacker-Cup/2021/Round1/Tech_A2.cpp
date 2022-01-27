@@ -43,13 +43,13 @@ int main()
     geek >> test_cases;
 
 
-    //long long test_cases ;
+    //double test_cases ;
     //cin>>test_cases;
 
-    for(long long test_case_loop = 0 ; test_case_loop < test_cases ;test_case_loop++)
+    for(double test_case_loop = 0 ; test_case_loop < test_cases ;test_case_loop++)
     {
         
-        long long char_length;
+        double char_length;
 
         getline ( inFile, temp );
 
@@ -61,18 +61,18 @@ int main()
 
         getline (inFile, input_string);
 
-        long long cnt1=0;
-        long long cnt2=0;
+        double cnt1=0;
+        double cnt2=0;
         int flag1=0;
         int flag=0;
-        long long min_count=0;
-        for(long long j=0;j<char_length;j++)
+        double min_count=0;
+        for(double j=0;j<char_length;j++)
         {
-        long long cnt1=0;
-        long long cnt2=0;
+        double cnt1=0;
+        double cnt2=0;
         int flag1=0;
         int flag=0;
-        for(long long i=j;i<input_string.size();i++)
+        for(double i=j;i<input_string.size();i++)
         {
             if(flag1==0&&input_string[i]=='O')
             {
@@ -94,7 +94,7 @@ int main()
                 flag=0;
                 cnt2++;
             }
-            long long k=min(cnt1,cnt2);
+            double k=min(cnt1,cnt2);
             min_count+=k;
             min_count%=mod;
 

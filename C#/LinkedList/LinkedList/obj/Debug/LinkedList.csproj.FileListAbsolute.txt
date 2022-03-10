@@ -1,0 +1,8 @@
+D:\Projects\DS and Algo\C#\LinkedList\LinkedList\obj\Debug\LinkedList.csproj.AssemblyReference.cache
+D:\Projects\DS and Algo\C#\LinkedList\LinkedList\obj\Debug\LinkedList.csproj.SuggestedBindingRedirects.cache
+D:\Projects\DS and Algo\C#\LinkedList\LinkedList\obj\Debug\LinkedList.csproj.CoreCompileInputs.cache
+D:\Projects\DS and Algo\C#\LinkedList\LinkedList\bin\Debug\LinkedList.exe.config
+D:\Projects\DS and Algo\C#\LinkedList\LinkedList\bin\Debug\LinkedList.exe
+D:\Projects\DS and Algo\C#\LinkedList\LinkedList\bin\Debug\LinkedList.pdb
+D:\Projects\DS and Algo\C#\LinkedList\LinkedList\obj\Debug\LinkedList.exe
+D:\Projects\DS and Algo\C#\LinkedList\LinkedList\obj\Debug\LinkedList.pdb
